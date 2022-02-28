@@ -25,5 +25,8 @@ Sandip Saha Joy
 
 Reference / Collaboration
 =========================
+Reference Code:
+- https://github.com/jihoonog/CMPUT404-assignment-css-hell
+
 CSS borrowed from:
 - https://github.com/jihoonog/CMPUT404-assignment-css-hell
