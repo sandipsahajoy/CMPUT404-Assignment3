@@ -1,0 +1,52 @@
+body {
+    /* background: #e0e0e0; */
+    background-image: url("background.png");
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-family: Calibri, sans-serif;
+    font-size: 1.05em;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    text-align: justify;
+    
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 2.5em;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    text-decoration: underline;
+    margin-top: 2.5em;
+}
+
+p {
+    font-family: Calibri, sans-serif;
+    text-align: justify;
+}
+
+img {
+    width: 30%;
+    float: left;
+    margin-left: 5em;
+    border-radius: 50%;
+    margin-bottom: 2.5em;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

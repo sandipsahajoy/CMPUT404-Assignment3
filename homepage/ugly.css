@@ -1,0 +1,47 @@
+body {
+  background: #f77bf7;
+  font-family: "Comic Sans MS", "Comic Sans", "Chalkboard", "Coming Soon";
+  font-size: 25px!important;
+  text-transform: uppercase
+}
+
+h1 {
+  color: rgb(255, 255, 255)!important;
+  text-align: center;
+  position: relative;
+  z-index: 2
+}
+
+h2 {
+  color: blue!important;
+  text-align: right;
+  position: relative;
+  z-index: 1;
+}
+
+p {
+  border: 20px solid #FF3131;
+  background: yellow;
+  font-family: "Courier New", monospace!important;
+  font-size: 25px;
+  transform: rotate(-23deg);
+  position: relative;
+  z-index: -1;
+}
+
+li.wkexpitem:nth-child(even) {
+  background: yellowgreen;
+  transform: rotate(-23deg);
+}
+
+li.wkexpitem:nth-child(odd) {
+  background: blueviolet;
+  transform: rotate(33deg);
+}
+
+img {
+  transform: rotate(43deg);
+  width: 10%;
+  display: block;
+  margin: 10px auto 20px;
+}
