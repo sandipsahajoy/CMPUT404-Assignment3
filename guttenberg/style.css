@@ -1,0 +1,77 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    /*Custom background image for the old paper look, it patterns well */
+    background-color: lightyellow;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    font-size: 12pt;
+    color: #4e6460;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/*
+h1 is usually the main title, so bold, underline, and make the text bigger.
+*/
+h1 {
+    font-size: 4em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*
+h2 and h3 are section headers used to divide chapters, so bold, and make the text slightly bigger
+*/
+h2, h3 {
+    font-weight: bold;
+    font-size: 1.75em;
+}
+
+/* Style paragraph */
+p {
+    text-indent: 1.5em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em
+}
+
+/* Image and Caption rules */
+img {
+    border-radius: 25px;
+    border-style: groove;
+    border-width: 4px;
+    border-color: #3b1e00;
+    margin: 4em auto .5em auto;
+}
+
+.link {
+    margin-top: -.4em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50%;
+}
+
+.caption {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* For book images I used the same parameters as from source */
+
+div.fig {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* Preserve the anchor highlight */
+a:hover {
+    color: red
+}
