@@ -21,4 +21,7 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
-
+Reference / Collaboration
+=========================
+CSS borrowed from:
+- https://github.com/jihoonog/CMPUT404-assignment-css-hell
